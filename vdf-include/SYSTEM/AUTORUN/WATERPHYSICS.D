@@ -99,7 +99,7 @@ instance MenuItem_Opt_Headline(C_MENU_ITEM_DEF)
   flags   = flags & ~IT_SELECTABLE;
   flags   = flags | IT_TXT_CENTER;
   text[0] = Str_GetLocalizedString(
-    "WaterPhysics НАСТРОЙКИ",
+    "WaterPhysics ННСТРОЙКИ",
     "WaterPhysics SETTINGS",
     "WaterPhysics EINSTELLUNGEN",
     "USTAWIENIA WaterPhysics"
@@ -108,7 +108,7 @@ instance MenuItem_Opt_Headline(C_MENU_ITEM_DEF)
 
 func int Act_OpenWebLink()
 {
-  Open_Link("https://github.com/AUTHOR/WaterPhysics");
+  Open_Link("https://github.com/Raster96/WaterPhysics-Union");
   return 0;
 };
 
@@ -122,13 +122,13 @@ instance MenuItem_Opt_Open_Link(C_MENU_ITEM_DEF)
   oneventaction[1] = Act_OpenWebLink;
   flags            = flags | IT_TXT_CENTER;
   text[0]          = Str_GetLocalizedString(
-    "Открыть страницу проекта",
+    "Открыть ѝтраницу проекта",
     "Open project page",
     "Projektseite öffnen",
     "Otwórz stronę projektu"
   );
 
-  text[1]          = "https://github.com/AUTHOR/WaterPhysics";
+  text[1]          = "https://github.com/Raster96/WaterPhysics-Union";
 };
 
 // ------ Menu ------
@@ -136,7 +136,7 @@ instance MenuItem_Union_Auto_WaterPhysics(C_MENU_ITEM_UNION_DEF)
 {
   text[0]          = "WaterPhysics";
   text[1] = Str_GetLocalizedString(
-    "Настройте параметры WaterPhysics",
+    "Наѝтройте параметры WaterPhysics",
     "Configure WaterPhysics settings",
     "WaterPhysics-Einstellungen konfigurieren",
     "Zmień ustawienia WaterPhysics"
@@ -165,7 +165,7 @@ instance MenuItem_Opt_WaterPhysics_ItemEffects(C_MENU_ITEM)
   
   text[0] = "ItemEffects";
   text[1] = Str_GetLocalizedString(
-    "Эффекты для упавших предметов",
+    "Эффекты длѝ упавших предметов",
     "Effects for dropped items",
     "Effekte für fallen gelassene Gegenstände",
     "Efekty dla upuszczonych przedmiotów"
@@ -197,7 +197,7 @@ instance MenuItem_Opt_WaterPhysics_ArrowEffects(C_MENU_ITEM)
   
   text[0] = "ArrowEffects";
   text[1] = Str_GetLocalizedString(
-    "Эффекты для стрел и болтов",
+    "Эффекты длѝ ѝтрел и болтов",
     "Effects for arrows and bolts",
     "Effekte für Pfeile und Bolzen",
     "Efekty dla strzał i bełtów"
@@ -229,7 +229,7 @@ instance MenuItem_Opt_WaterPhysics_WeaponEffects(C_MENU_ITEM)
   
   text[0] = "WeaponEffects";
   text[1] = Str_GetLocalizedString(
-    "Эффекты для ударов оружием",
+    "Эффекты длѝ ударов оружием",
     "Effects for weapon attacks",
     "Effekte für Waffenangriffe",
     "Efekty dla uderzeń bronią"
